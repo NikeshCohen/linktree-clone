@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-y: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+}
+
+nav {
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #ffffff14;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.2rem 2.8rem 1rem 2.8rem;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.link-attribute {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.1s;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #ff973c;
+}
+
+.hero-image-index {
+  background-image: url("../images/Background_images/background-img.png");
+
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hero-image-contact {
+  background-image: url("../images/Background_images/contact.webp");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* position: relative; */
+}
+
+.logo-image {
+  height: 5rem;
+  width: 10rem;
+}
+
+.container {
+  position: absolute;
+  display: grid;
+  row-gap: 1.5rem;
+  left: 50%;
+  top: 55rem;
+  transform: translate(-50%, -50%);
+}
+
+.link {
+  background-color: #ffffff44;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 40rem;
+  border-radius: 30px;
+}
+
+.footer {
+  font-size: 1.4rem;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2rem;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.1s;
+}
+
+.footer-link:hover {
+  color: #878787;
+}

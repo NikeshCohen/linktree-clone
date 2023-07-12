@@ -1,0 +1,48 @@
+@media (max-width: 48rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-image-contact {
+    background-position: 35% 70%;
+  }
+
+  .logo-image {
+    height: 4rem;
+    width: 8rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 36rem) {
+  .hero-image-index {
+    background-image: url("../images/Background_images/background-img\(36rem\).png");
+  }
+}
+
+@media (max-width: 27rem) {
+  .logo-image {
+    height: 3rem;
+    width: 6rem;
+  }
+
+  .hero-image-contact {
+    background-position: 40% 70%;
+  }
+
+  .icon {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .nav-link {
+    font-size: 1.8rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+}
