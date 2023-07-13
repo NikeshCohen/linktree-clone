@@ -15,11 +15,41 @@
   .footer {
     font-size: 1.2rem;
   }
+
+  .contact-box {
+    width: 60rem;
+  }
+
+  .contact-box input {
+    width: 25rem;
+  }
 }
 
 @media (max-width: 36rem) {
   .hero-image-index {
     background-image: url("../images/Background_images/background-img\(36rem\).png");
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .plan-price span:nth-child(2) {
+    font-size: 1.2rem;
+  }
+
+  .contact label {
+    text-align: center;
+  }
+
+  ::placeholder {
+    text-align: center;
+  }
+
+  .contact-box {
+    width: 52rem;
+    height: 50rem;
   }
 }
 
@@ -49,5 +79,13 @@
     height: 5rem;
     width: 25rem;
     padding: 0 2rem;
+  }
+
+  .contact-text {
+    font-size: 4rem;
+  }
+
+  .contact-box {
+    width: 40rem;
   }
 }
