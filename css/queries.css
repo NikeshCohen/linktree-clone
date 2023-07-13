@@ -45,4 +45,9 @@
   .footer {
     font-size: 0.8rem;
   }
+  .link {
+    height: 5rem;
+    width: 25rem;
+    padding: 0 2rem;
+  }
 }

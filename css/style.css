@@ -6,7 +6,7 @@
 
 html {
   font-size: 62.5%;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -77,22 +77,56 @@ nav {
 
 .container {
   position: absolute;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  letter-spacing: 0.5rem;
   display: grid;
   row-gap: 1.5rem;
   left: 50%;
-  top: 55rem;
+  top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.container-image {
+  height: 3rem;
+  width: 3rem;
+  transition: all 0.2s;
+}
+
+.link:hover .container-image {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .link {
   background-color: #ffffff44;
+  box-shadow: 2.4rem 1.2rem 5.2rem rgba(255, 255, 255, 0.164);
   backdrop-filter: blur(5px);
   display: flex;
-  justify-content: center;
+  gap: 2rem;
   align-items: center;
   height: 5rem;
-  width: 40rem;
+  width: 35rem;
   border-radius: 30px;
+  transition: all 0.2s;
+  padding: 0 8.5rem;
+}
+
+.link p {
+  justify-content: space-around;
+}
+
+.link:hover {
+  background-color: #ff973ca9;
+  box-shadow: 2.4rem 1.2rem 5.2rem rgba(255, 151, 60, 0.185);
+  color: black;
+  letter-spacing: 0.7rem;
 }
 
 .footer {
@@ -114,5 +148,5 @@ nav {
 }
 
 .footer-link:hover {
-  color: #878787;
+  color: #ff973c;
 }
