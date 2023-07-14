@@ -4,7 +4,7 @@
   }
 
   .hero-image-contact {
-    background-position: 35% 70%;
+    background-position: 40% 70%;
   }
 
   .logo-image {
@@ -17,7 +17,11 @@
   }
 
   .contact-box {
-    width: 60rem;
+    width: 50rem;
+  }
+
+  .contact-text {
+    font-size: 5rem;
   }
 
   .contact-box input {
@@ -31,24 +35,19 @@
   }
 
   .contact {
-    grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .contact-text {
+    font-size: 5rem;
   }
 
   .plan-price span:nth-child(2) {
     font-size: 1.2rem;
   }
 
-  .contact label {
-    text-align: center;
-  }
-
-  ::placeholder {
-    text-align: center;
-  }
-
   .contact-box {
-    width: 52rem;
+    width: 48rem;
     height: 50rem;
   }
 }
@@ -59,8 +58,8 @@
     width: 6rem;
   }
 
-  .hero-image-contact {
-    background-position: 40% 70%;
+  ::placeholder {
+    text-align: center;
   }
 
   .icon {

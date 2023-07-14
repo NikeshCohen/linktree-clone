@@ -3,23 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nikesh Cohen | Link Tree</title>
-    <link rel="icon" href="images/logo's/logo.png" />
+    <title>Nikesh Cohen | Contact</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="cs" />
+    <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/queries.css" />
-
-    >
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@600&display=swap"
       rel="stylesheet"
     />
     <script
@@ -30,8 +25,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <link rel="stylesheet" href="css/queries.css" />
-    <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
     <div class="hero-image-contact">
@@ -40,15 +33,14 @@
         <ul class="nav-links">
           <li class="link-attribute">
             <ion-icon name="home-outline" class="icon"></ion-icon>
-            <a href="index.html" class="nav-link">HOME</a>
             <!-- <a href="index.html" class="nav-link">HOME</a> -->
+            <a href="./" class="nav-link">HOME</a>
           </li>
         </ul>
       </nav>
-
       <div class="contact-box">
-        <p class="contact-text">Get in contact!</p>
-        <form name="contact" netlify>
+        <div class="contact-text">Get in contact!</div>
+        <form class="contact-form" name="contact" netlify>
           <div>
             <label for="full-name">Full Name</label>
             <input
@@ -59,6 +51,7 @@
               required
             />
           </div>
+
           <div>
             <label for="email">Email address</label>
             <input
@@ -70,12 +63,12 @@
             />
           </div>
           <div>
-            <label for="information">Information</label>
+            <label for="email">How can I assist you?</label>
             <input
-              id="Information"
-              placeholder="How can I assist you?"
+              id="infomation"
+              class="information-box"
               type="text"
-              name="information"
+              name="question"
               required
             />
           </div>

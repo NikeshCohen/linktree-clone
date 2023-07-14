@@ -47,7 +47,8 @@ nav {
   color: #ff973c;
 }
 
-.hero-image-index {
+.hero-image-index,
+.hero-image-contact {
   background-image: url("../images/Background_images/background-img.png");
 
   height: 100vh;
@@ -61,13 +62,6 @@ nav {
 
 .hero-image-contact {
   background-image: url("../images/Background_images/contact.webp");
-  height: 100vh;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  /* position: relative; */
 }
 
 .logo-image {
