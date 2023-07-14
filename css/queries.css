@@ -50,6 +50,18 @@
     width: 48rem;
     height: 50rem;
   }
+
+  .container {
+    width: 50rem;
+  }
+
+  .conformation-text {
+    margin-bottom: 2rem;
+  }
+
+  .email-text {
+    margin: 1rem 1.5rem;
+  }
 }
 
 @media (max-width: 27rem) {
@@ -86,5 +98,9 @@
 
   .contact-box {
     width: 40rem;
+  }
+
+  .container {
+    width: 45rem;
   }
 }

@@ -23,7 +23,7 @@
 .email-text {
   font-family: "Titillium Web", sans-serif;
   font-size: 1.3rem;
-  height: 5rem;
+  margin: 2rem 0;
 }
 
 .email-text a:hover {
