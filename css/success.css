@@ -1,4 +1,4 @@
-.container {
+.success-container {
   background-color: #ffffff2c;
   box-shadow: 2.4rem 1.2rem 5.2rem rgba(0, 0, 0, 0.164);
   backdrop-filter: blur(10px);
@@ -7,7 +7,7 @@
   text-align: center;
   display: inline-block;
   padding-top: 1rem;
-  height: 30rem;
+  height: 26rem;
   width: 60rem;
   left: 50%;
   top: 45%;
@@ -17,24 +17,39 @@
 .conformation-text {
   font-size: 3rem;
   font-family: "Kanit", sans-serif;
-  height: 13rem;
+  margin-bottom: 5rem;
 }
 
 .email-text {
   font-family: "Titillium Web", sans-serif;
-  font-size: 1.3rem;
-  margin: 2rem 0;
+  font-size: 2rem;
+  margin: 2rem 2rem;
+}
+
+.email-text a {
+  text-decoration: none;
+  color: white;
 }
 
 .email-text a:hover {
   color: #ff973c;
 }
 
+.email-text a::after {
+  color: white;
+}
+
 .home-text {
   margin-top: 4rem;
+  font-size: 2rem;
   display: block;
 }
 
 .home-text:hover {
   color: #ff973c;
+}
+
+.home-text {
+  text-decoration: none;
+  color: white;
 }
