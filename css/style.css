@@ -48,7 +48,8 @@ nav {
 }
 
 .hero-image-index,
-.hero-image-contact {
+.hero-image-contact,
+.hero-image-success {
   background-image: url("../images/Background_images/background-img.png");
 
   height: 100vh;
@@ -62,6 +63,10 @@ nav {
 
 .hero-image-contact {
   background-image: url("../images/Background_images/contact.webp");
+}
+
+.hero-image-success {
+  background-image: url("../images/Background_images/success.jpg");
 }
 
 .logo-image {
