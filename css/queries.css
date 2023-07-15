@@ -104,3 +104,21 @@
     width: 45rem;
   }
 }
+
+@media (max-width: 25rem) {
+  .success-container {
+    width: 40rem;
+    height: 22rem;
+  }
+
+  .conformation-text {
+    font-size: 3rem;
+  }
+  .email-text {
+    font-size: 1.7rem;
+  }
+
+  .home-text {
+    margin-top: 3rem;
+  }
+}
